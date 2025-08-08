@@ -49,10 +49,10 @@ const Hero: React.FC = () => {
                     {/* Large Heading */}
                     <div className="order-1 lg:order-2">
                         <h1 className="font-serif text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-brand-dark tracking-tighter">
-                            <span className="flex items-center gap-4">
-                                Savor
-                                <img src="/sliced_cake.png" alt="A delicious cake" className="w-20 h-20 md:w-28 md:h-28 rounded-full object-cover inline-block shadow-xl" />
-                                Every
+                            <span className="flex flex-wrap items-center gap-2 sm:gap-4">
+                                <span>Savor</span>
+                                <img src="/sliced_cake.png" alt="A delicious cake" className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 rounded-full object-cover shadow-xl flex-shrink-0" />
+                                <span>Every</span>
                             </span>
                             <span className="block mt-2">Delicious</span>
                             <span className="block mt-2">Moment</span>
